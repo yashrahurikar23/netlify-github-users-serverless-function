@@ -1,0 +1,25 @@
+{
+  "name": "netlify-github-users-serverless-function",
+  "version": "1.0.0",
+  "description": "A beginner level implementation to understand how serverless functions work, with a netlify hosted serverless function to fetch a list of github users using the Github users API.",
+  "main": "index.js",
+  "scripts": {
+    "lambda-serve": "netlify-lambda serve functions",
+    "lambda-build": "netlify-lambda build functions"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yashrahurikar23/netlify-github-users-serverless-function.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yashrahurikar23/netlify-github-users-serverless-function/issues"
+  },
+  "homepage": "https://github.com/yashrahurikar23/netlify-github-users-serverless-function#readme",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "netlify-lambda": "^2.0.1"
+  }
+}
